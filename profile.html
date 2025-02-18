@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+</head>
+<body>
+    <h2>Welcome, {{ user[0] }} {{ user[1] }}</h2>
+    <p>Email: {{ user[2] }}</p>
+    <p>Address: {{ user[3] }}</p>
+    <a href="{{ url_for('login') }}">Logout</a>
+</body>
+</html>
